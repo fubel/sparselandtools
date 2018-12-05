@@ -1,9 +1,9 @@
 # Sparselandtools
 
 [![PyPI - Python Version](https://img.shields.io/pypi/pyversions/sparselandtools.svg?style=flat-square)](https://pypi.org/project/sparselandtools/1.0.0.dev2/)
-[![PyPI](https://img.shields.io/pypi/v/sparselandtools.svg?style=flat-square)](https://pypi.org/manage/project/sparselandtools/releases/)
+[![PyPI](https://img.shields.io/pypi/v/sparselandtools.svg?style=flat-square)](https://pypi.org/project/sparselandtools/)
 [![PyPI - Implementation](https://img.shields.io/pypi/implementation/sparselandtools.svg?style=flat-square)](https://pypi.org/project/sparselandtools/#description)
-[![Read the Docs](https://img.shields.io/readthedocs/sparselandtools.svg?style=flat-square)](https://sparselandtools.readthedocs.io/en/latest/)[![Build Status](https://travis-ci.com/fubel/sparselandtools.svg?token=e6hQaTqfZFZnG6RmEYXr&branch=master&style=flat-square)](https://travis-ci.com/fubel/sparselandtools)
+[![Build Status](https://travis-ci.com/fubel/sparselandtools.svg?token=e6hQaTqfZFZnG6RmEYXr&branch=master&style=flat-square)](https://travis-ci.com/fubel/sparselandtools)
 
 Sparselandtools is a Python 3 package that provides implementations for
 sparse representations and dictionary learning. In particular, it
