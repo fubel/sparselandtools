@@ -15,7 +15,7 @@ docutils==0.14
 idna==2.7
 imageio==2.3.0
 imagesize==1.1.0
-Jinja2==2.10
+Jinja2==2.10.1
 kiwisolver==1.0.1
 llvmlite==0.25.0
 MarkupSafe==1.1.0
