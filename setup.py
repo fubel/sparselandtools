@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="sparselandtools",
-    version="1.0.0",
+    version="1.0.1",
     author="Fabian Herzog",
     author_email="fabian.herzog.dev@gmail.com",
     description="A package for sparse representations and dictionary learning",
