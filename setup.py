@@ -11,7 +11,7 @@ setuptools.setup(
     description="A package for sparse representations and dictionary learning",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/fubel/py-sparselandtools",
+    url="https://github.com/fubel/sparselandtools",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
