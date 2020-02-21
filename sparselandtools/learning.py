@@ -57,7 +57,7 @@ class KSVD:
             wk = np.nonzero(self.alphas[k, :])[0]
             if len(wk) == 0:
                 continue
-            Ri = R[:,wk] + D3[:,k,None].dot(alphas3[None,k,wk])
+            Ri = R[:,wk] + D[:,k,None].dot(alphas3[None,k,wk])
 
             U, s, Vh = np.linalg.svd(Ri)
             D[:, k] = U[:, 0]
