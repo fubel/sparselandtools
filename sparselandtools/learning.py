@@ -51,19 +51,18 @@ class KSVD:
         # iterate rows
         D = self.dictionary.matrix
         n, K = D.shape
+        R = Y - D.dot(self.alphas)
         for k in range(K):
             logging.info("Updating column %s" % k)
             wk = np.nonzero(self.alphas[k, :])[0]
             if len(wk) == 0:
                 continue
-            E = Y[:, wk]
-            for j in range(K):
-                logging.info(j)
-                if j != k:
-                    E += -np.outer(D[:, j], self.alphas[j, wk])
-            U, s, Vh = np.linalg.svd(E)
+            Ri = R[:,wk] + D[:,k,None].dot(self.alphas[None,k,wk])
+
+            U, s, Vh = np.linalg.svd(Ri)
             D[:, k] = U[:, 0]
             self.alphas[k, wk] = s[0] * Vh[0, :]
+            R[:, wk] = Ri - D[:,k,None].dot(self.alphas[None,k,wk])
         self.dictionary = Dictionary(D)
 
     def fit(self, Y: np.ndarray, iter: int):
