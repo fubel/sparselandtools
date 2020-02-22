@@ -58,7 +58,6 @@ class KSVD:
             if len(wk) == 0:
                 continue
             Ri = R[:,wk] + D[:,k,None].dot(self.alphas[None,k,wk])
-
             U, s, Vh = np.linalg.svd(Ri)
             D[:, k] = U[:, 0]
             self.alphas[k, wk] = s[0] * Vh[0, :]
