@@ -8,7 +8,7 @@ with open('requirements.txt') as f:
 
 setuptools.setup(
     name="sparselandtools",
-    version="1.0.2",
+    version="1.0.3",
     author="Fabian Herzog",
     author_email="fabian.herzog.dev@gmail.com",
     description="A package for sparse representations and dictionary learning",
@@ -21,6 +21,6 @@ setuptools.setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-    python_requires='>=3.5',
+    python_requires='>=3.6',
     install_requires=requirements,
 )
