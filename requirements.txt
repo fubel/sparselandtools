@@ -29,7 +29,7 @@ numba==0.48.0
 numpy==1.18.1
 packaging==20.1
 pandas==1.0.1
-Pillow==7.0.0
+Pillow>=7.1.0
 pkginfo==1.5.0.1
 pluggy==0.13.1
 prettyplotlib==0.1.7
