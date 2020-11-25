@@ -34,12 +34,14 @@ includes implementations for
 **Note:** I did this project mainly to generate plots for my Master's thesis.
 Some of the implementations are more *educational* than *efficient*. If you want
 to learn more about sparse representations and dictionary learning using Python,
-or use dictionary learning algorithms in small dimensions this ,package is for you.
+or use dictionary learning algorithms in small dimensions, this package is for you.
 If you want to use these functions for industrial applications, you should have a
 look at more efficient C++-based implementations:
 
 * [The Efficient K-SVD Algorithm by Rubinstein](http://www.cs.technion.ac.il/~ronrubin/software.html)
 * [The Efficient K-SVD Denoiser by Lebrun](https://github.com/npd/ksvd)
+
+**Warning:** I'm currently pursuing my PhD in computer vision and have no time to keep this project up-to-date. Any pull requests for new features or bug fixes are welcome! 
 
 
 ## Getting Started
