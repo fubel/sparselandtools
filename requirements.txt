@@ -41,7 +41,7 @@ python-dateutil==2.8.1
 pytz==2019.3
 PyWavelets==1.1.1
 readme-renderer==24.0
-requests==2.23.0
+requests==2.25.1
 requests-toolbelt==0.9.1
 scikit-image==0.16.2
 scikit-learn==0.22.1
@@ -60,7 +60,7 @@ sphinxcontrib-websupport==1.2.0
 toolz==0.10.0
 tqdm==4.43.0
 twine==3.1.1
-urllib3==1.26.3
+urllib3==1.26.4
 wcwidth==0.1.8
 webencodings==0.5.1
 zipp==3.0.0
