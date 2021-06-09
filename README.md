@@ -74,25 +74,20 @@ print(dct_dictionary.mutual_coherence())
 More examples can be found in the corresponding Jupyter Notebook.
 
 
-## Contribute
+## Reference 
 
-There are a lot of algorithms based on sparse representations and
-dictionary learning that are not (yet) included in this package. These
-include - among others:
+If you find my implementations useful for your academic projects, feel free to cite
 
-* The Double Sparsity Method
-* Trainlets
-* Denoiser with Method Noise Post Processing
-* Boosted Denoiser with Patch Disagreement
-
-and much more. It would also be interesting to see more applications in this package.
-Currently, this package only provides the K-SVD image denoiser [based on the work of
-Aharon and Elad](https://www.egr.msu.edu/~aviyente/elad06.pdf). K-SVD can also
-be used in many other applications, such as face recognition. Furthermore,
-it would be nice to have GPU-versions of all the algorithms available as well.
-
-If you want to see a specific algorithm in this package,
-please consider opening a feature request here on Github. If you have written
-an algorithm that you think would fit into this package, please fork this
-repository, add your algorithm and file a pull request. If something
-doesn't work as expected, please open an issue.
+```
+@software{fabian_herzog_2021_4916395,
+  author       = {Fabian Herzog},
+  title        = {{sparselandtools: A Python package for sparse 
+                   representations and dictionary learning, including
+                   matching pursuit, K-SVD and applications.}},
+  month        = jun,
+  year         = 2021,
+  publisher    = {Zenodo},
+  doi          = {10.5281/zenodo.4916395},
+  url          = {https://doi.org/10.5281/zenodo.4916395}
+}
+```
