@@ -41,7 +41,7 @@ python-dateutil==2.8.1
 pytz==2019.3
 PyWavelets==1.1.1
 readme-renderer==24.0
-requests==2.31.0
+requests==2.32.0
 requests-toolbelt==0.9.1
 scikit-image==0.16.2
 scikit-learn==0.22.1
